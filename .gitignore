@@ -1,0 +1,28 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log
+
+# Frontend build outputs
+frontend/dist/
+dist/
+
+# OS / Editor
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# DB and backups
+db/*.sqlite
+backups/
+
+# Logs
+logs/
+*.log
