@@ -5,8 +5,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'https://privilege-escalation-web1.onrender.com',
-      '/admin': 'https://privilege-escalation-web1.onrender.com'
+      '/api': 'https://backend-privilege-escalation-web.onrender.com/',
+      '/admin': 'https://backend-privilege-escalation-web.onrender.com/'
     }
   }
 })
