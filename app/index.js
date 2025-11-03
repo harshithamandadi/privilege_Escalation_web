@@ -8,7 +8,7 @@ const app = express();
 
 // CORS configuration
 app.use(cors({
-  origin: 'https://privilege-escalation-web.onrender.com',
+  origin: 'https://backend-privilege-escalation-web.onrender.com',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
